@@ -1256,7 +1256,7 @@ body.login {
 	border: 3px solid #380b88;
   color: #380b88;
   transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
+  color 0.2s ease-out;
 }
 
 .btn--purple:hover {
@@ -1307,12 +1307,16 @@ body.login {
 }
 
 .btn--white {
-  background-color: #FFF;
-  color: #173f58;
+  border: 3px solid #fff;
+  color: #fff;
+  transition: background-color 0.2s ease-out,
+  color 0.2s ease-out;
 }
 
 .btn--white:hover {
-  background-color: #DDD;
+  border: 3px solid #380b88;
+  background-color: #380b88;
+  color: #FFF;
 }
 
 .btn--large {

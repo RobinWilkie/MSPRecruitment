@@ -28,6 +28,25 @@ function msp_features(){
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
 	add_image_size('newsThumbnail', 400, 260, true);
+	register_sidebar();
 }
 
 add_action('after_setup_theme', 'msp_features');
+
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function ogdirections_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'direction sidebar',
+		'id'            => 'ogd_right_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'ogdirections_widgets_init' );

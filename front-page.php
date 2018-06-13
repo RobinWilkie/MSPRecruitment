@@ -8,7 +8,7 @@
       <h2 class="headline headline--medium">Delivering exceptional candidates</h2>
       <h2 class="headline headline--medium">that exceed your expectations</h2>
       <br>
-      <a href="<?php echo esc_url(site_url('/contact-us')); ?>" class="btn btn--large btn--purple">GET IN TOUCH</a>
+      <a href="<?php echo esc_url(site_url('/contact-us')); ?>" class="btn btn--large btn--white">GET IN TOUCH</a>
     </div>
 </div>
 

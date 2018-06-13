@@ -17,7 +17,7 @@
     <div class="full-width-split__one">
       <div class="full-width-split__inner">
         <p class="larger-text">MSP Recruitment Solutions is an established market leader specialising in international print and packaging recruitment solutions for the Brand Solutions, Visual Merchandising and Graphic Communications sectors.
-        Established in 1995, our aim is, and always has been, to consistently provide a service that is well beyond the reach of our competitors and always exceeds the expectations of people we do business with.</p>
+        Established in 2005, our aim is, and always has been, to consistently provide a service that is well beyond the reach of our competitors and always exceeds the expectations of people we do business with.</p>
       </div>
     </div>
 
